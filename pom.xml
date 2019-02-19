@@ -90,7 +90,6 @@
                         </goals>
                         <configuration>
                             <sourceDirs>
-                                <sourceDir>${project.basedir}/src/main/java</sourceDir>
                                 <sourceDir>${project.basedir}/src/main/kotlin</sourceDir>
                             </sourceDirs>
                         </configuration>
@@ -102,7 +101,6 @@
                             <goal>test-compile</goal>
                         </goals>
                         <configuration>
-                            <sourceDirs>${project.basedir}/src/test/java</sourceDirs>
                             <sourceDirs>${project.basedir}/src/test/kotlin</sourceDirs>
                         </configuration>
                     </execution>
